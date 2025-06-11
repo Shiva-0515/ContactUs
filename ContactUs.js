@@ -10,10 +10,10 @@ function ContactUs() {
 
     emailjs
       .sendForm(
-        'service_wkjrqf8',
-        'template_mywh4ve',
+        'Service_ID',
+        'template_ID',
         formRef.current,
-        'bepz3yEzpS2bn_w8C'
+        'Public_Key'
       )
       .then(
         () => {
